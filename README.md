@@ -26,7 +26,7 @@ This is how to successfully restore a database
 # MySql DESTROY (start your database from scratch)
 
 Data for my sql is stored in the .mysql-data folder. Do not delete this folder or the contents of this folder.
-Also, you might not want to push this folder to github, and that is why there is a .gitignore file. You mill want 
+Also, you might not want to push this folder to github, and that is why there is a .gitignore file. You might want 
 to share the database with team members, so use the Export functionality in PhpMyAdmin to export sql files which
 represents your entire database.
 
