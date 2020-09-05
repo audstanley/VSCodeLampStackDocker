@@ -1,0 +1,15 @@
+{
+	"name": "Alpine",
+	"dockerComposeFile": ["./docker-compose.yml"],
+	
+	"service": "web-server",
+	"workspaceMount": "source=${localWorkspaceFolder},target=/var/www/html,type=bind,consistency=cached",
+	"workspaceFolder": "/var/www/html",
+	"runServices": ["mysql-server", "phpmyadmin", "web-server"],
+	
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+	"extensions": [],
+	"appPort": [ "8080:80" ],
+}
