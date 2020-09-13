@@ -17,7 +17,7 @@ try {
     echo $arr[0][1] . ' is ' . $arr[0][2] . ' years old.';
     echo '</br>';
 
-    // TestDataBase -> test -> idx:1,name:Bob,age:23
+    // TestDataBase -> test -> idx:2,name:Bob,age:23
     echo $arr[1][1] . ' is ' . $arr[1][2] . ' years old.';
     echo '</br>';
 
