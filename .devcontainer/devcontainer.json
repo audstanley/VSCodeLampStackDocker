@@ -10,6 +10,10 @@
 	"settings": {
 		"terminal.integrated.shell.linux": "/bin/bash"
 	},
-	"extensions": [],
-	"appPort": [ "8080:80" ],
+	"extensions": [ 
+		"felixbecker.php-intellisense", "dbaeumer.vscode-eslint", "dbaeumer.jshint", 
+		"hookyqr.beautify","eamodio.gitlens", "eg2.vscode-npm-script", 
+		"msjsdiag.vscode-react-native", "christian-kohler.npm-intellisense", 
+		"ms-vsliveshare.vsliveshare", "vscode.vim"
+	]
 }
