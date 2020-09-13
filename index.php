@@ -7,7 +7,6 @@ $password = 'secret';
 try {
     $dbh = new PDO($dsn, $user, $password);
     echo 'SUCCESSFULLY CONNECTED TO MYSQL </br>';
-    $myArray = range(0, 3);
     
     $sql = 'SELECT * FROM test';
     $sth = $dbh->prepare($sql);
